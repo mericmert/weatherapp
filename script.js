@@ -22,7 +22,7 @@ const setWeater = (value) => {
 const changeHTML = (value) => {
     cityName.innerHTML = `${value.name}` + `, ${value.sys.country}`
     condition.innerHTML = `${value.weather[0].main}`
-    temp.innerHTML = `${value.main.temp}`
+    temp.innerHTML = `${Math.floor(value.main.temp)}`
 }
 
 const getValue = (e) => {
