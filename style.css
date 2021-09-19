@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(view.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    min-height: 100vh;
+}
+
+header{
+    margin-bottom: 40px;
+}
+
+header *  {
+    margin-bottom: 15px ;
+    font-weight: 150px;
+}
+
+header input{
+    background: transparent;
+    text-align: left;
+    color: #FFCAC7;
+}
+
+.app header h2{
+    color: #FFCAC7;
+}
+
+
+.app .desc{
+    color: #C17D8F;
+    font-size: 3rem;
+    font-weight: 400;
+}
